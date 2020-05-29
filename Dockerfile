@@ -8,12 +8,12 @@ LABEL \
     org.label-schema.build-date=$BUILD_DATE \
     org.label-schema.docker.dockerfile="/Dockerfile" \
     org.label-schema.license="Apache License 2.0" \
-    org.label-schema.name="smizy/mosquitto" \
-    org.label-schema.url="https://github.com/smizy" \
+    org.label-schema.name="ebg8648/mqtt-broker" \
+    org.label-schema.url="https://github.com/ebg8648" \
     org.label-schema.vcs-ref=$VCS_REF \
     org.label-schema.vcs-type="Git" \
     org.label-schema.version=$VERSION \
-    org.label-schema.vcs-url="https://github.com/smizy/docker-mosquitto"
+    org.label-schema.vcs-url="https://github.com/ebg8648/mqtt-broker.git"
 
 
 RUN set -x \
