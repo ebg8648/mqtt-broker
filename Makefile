@@ -4,7 +4,7 @@ all: runtime
 
 .PHONY: clean
 clean:
-	docker rmi -f smizy/mosquitto:${TAG} || :
+	docker rmi -f ebg8648/mqtt-broker:${TAG} || :
 
 .PHONY: runtime
 runtime:
